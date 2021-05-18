@@ -1,0 +1,18 @@
+<html>
+<head>
+title=name
+</head>
+<body>
+<h1> Following are the titles of given websites: </h1>
+<ul>
+if flag == 1
+   <li> #{url} - "#{name}" </li>
+else
+  if valid
+   - for (var i = 0; i < valid.length; i++)
+       <li> #{valid[i]} - "#{title[i]}" </li>
+  each n in notvalid
+       <li> #{n} - "NO RESPONSE" </li>  
+</ul>
+</body>
+</html>
